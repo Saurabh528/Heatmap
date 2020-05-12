@@ -12,7 +12,8 @@ img_file_buffer = st.file_uploader("Upload an image", type=["png", "jpg", "jpeg"
 if img_file_buffer is not None:
     image = np.array(Image.open(img_file_buffer))
 
-
+else:
+    image=[]
 st.write(image.shape)
 
 
