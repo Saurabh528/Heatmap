@@ -4,7 +4,7 @@ from PIL import Image
 import numpy as np
 import os
 
-os.mkdir("images")
+
 
 
 img_file_buffer = st.file_uploader("Upload an image", type=["png", "jpg", "jpeg"])
